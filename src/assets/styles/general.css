@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "main";
+    src: url(../fonts/YekanBakhFaNum-Bold.ttf) format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "main";
+    src: url(../fonts/YekanBakhFaNum-Regular.ttf) format("truetype");
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: rtl !important;
+}
+
+body,
+html {
+    font-family: 'main';
+    background-color: #F7F7F7;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+:focus-visible {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+article {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(197, 197, 197);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 94, 129);
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: 'main' !important;
+}
+
+label {
+    background: white;
+}
+
+input {
+    font-family: 'main' !important;
+}
+
+textarea {
+    font-family: 'main' !important;
+}
+
+.MuiPickersCalendarHeader-label {
+    font-family: 'main' !important;
+}
+
+.MuiDayCalendar-weekDayLabel {
+    font-family: 'main' !important;
+}
+
+.MuiPickersArrowSwitcher-root {
+    direction: ltr !important
+}
+
+.MuiPickersArrowSwitcher-spacer {
+    display: none !important
+}
+
+.MuiPickersArrowSwitcher-root {
+    margin-left: 10px;
+}
+
+.MuiAutocomplete-listbox {
+    font-family: 'main' !important;
+}
+
+.MuiTimePickerToolbar-hourMinuteLabel {
+    direction: ltr !important
+}
+
+.MuiTypography-overline {
+    display: none;
+}
+
+.MuiDialog-paper {
+    border-radius: 20px !important;
+}
+.pagecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url(../images/global/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.imgNotfound{
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem #405D72;
+}
+.imgContactUs{
+    width: 40rem;
+    height: 50vh;
+}
+.imgAboutUs{
+    min-width: 25rem;
+    min-height: 30vh;
+}
+
+.iconcontactus{
+    width: 2rem;
+    height: 2rem;
+    background-color: whitesmoke;
+    border-radius: 100%;
+}
+
+.iconcontactus:hover{
+    background-color: gainsboro;
+}
+.title {
+    font-size: larger !important;
+}
+.imglanding {
+    width: 100% !important;
+    height: 96% !important;
+    border-radius: 3%;
+    position: relative; /* Necessary for positioning the pseudo-element */
+    overflow: hidden; /* Ensures the pseudo-element doesn't overflow the container */
+    background-color: transparent; /* Set to transparent if you want to show the blur */
+}
+
+.imglanding::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: inherit; /* Inherits background color, can be set to another color if needed */
+    filter: blur(100px);
+    backdrop-filter: blur(100px);
+    z-index: 1; /* Places the blur behind the content */
+}
+
+.imglanding > * {
+    position: relative;
+    z-index: 2; /* Ensure content is above the blur */
+}
+.recharts-surface{
+    height: 600px !important;
+}
+.recharts-wrapper{
+    min-height: 600px !important;
+}
+.recharts-responsive-container{
+    min-height: 600px !important;
+}
+@media print {
+    .no-print {
+        display: none; 
+    }
+
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    /* Additional styling if needed */
+}

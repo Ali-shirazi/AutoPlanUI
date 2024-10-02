@@ -1,0 +1,45 @@
+{
+    "short_name": "اتو پـــــلنـــــــــــــــ",
+    "name": "اتو پـــــلنـــــــــــــــ",
+    "icons": [
+        {
+            "src": "./public/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1B74E4",
+    "background_color": "#1B74E4",
+    "orientation": "landscape",
+    "scope": "/",
+    "description": "اتوپلن، برنامه ریزی تعمیرات و زمان ....",
+    "prefer_related_applications": false,
+    "dir": "ltr",
+    "lang": "fa",
+    "categories": [
+        "utilities",
+        "productivity",
+        "cars",
+        "planning",
+        "deviations",
+        "time-management",
+        "car-repair"
+    ],
+    "shortcuts": [
+        {
+            "name": "اتو پـــــلنـــــــــــــــ",
+            "short_name": "اتو پـــــلنـــــــــــــــ",
+            "description": "اتوپلن، برنامه ریزی تعمیرات و زمان ....",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "./public/favicon.ico",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}
