@@ -42,8 +42,8 @@ import NotFound from './NotFound .jsx';
 import AboutUs from '../pages/aboutUS/AboutUS.jsx';
 import ServicesPage from '../pages/servicespage/ServicesPage.jsx';
 import ContactUs from '../pages/contactUS/ContactUs.jsx';
-
-
+import UsersManagement from '../pages/UsersManagement.js'
+ 
 const AuthenticationGuard = ({ children }) => {
     const location = useLocation();
     const dispatch = useDispatch();
@@ -116,6 +116,7 @@ function App() {
                         <Route errorElement={<OtherErrors />} path='reporting' element={<Reporting />} />
                         <Route errorElement={<OtherErrors />} path='setting' element={<Setting />} />
                         <Route errorElement={<OtherErrors />} path='addAdmin' element={<AddAdmin />} />
+                        <Route errorElement={<OtherErrors />} path='user-management' element={<UsersManagement />} />
                     </Route>
                     <Route errorElement={<OtherErrors />} path="/About-us" element={<AboutUs />} />
                     <Route errorElement={<OtherErrors />} path="/Services" element={<ServicesPage />} />

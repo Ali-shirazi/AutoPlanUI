@@ -59,9 +59,15 @@ const Navbar = () => {
                             <li>
                                 <NavLink to='/About-us'>درباره ما</NavLink>
                             </li>
+
+                            <li>
+                                <NavLink to='/user-management'>مدیریت کاربر</NavLink>
+                            </li>
                             <li>
                                 <NavLink to='/Contact-us'>تماس با ما</NavLink>
                             </li>
+
+                            
                         </ul>
                         {!userInfo ? (
                             <FormButton

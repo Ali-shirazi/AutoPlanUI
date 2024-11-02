@@ -121,7 +121,16 @@ const PERMISSION = {
     EXCEL: {
         LIST: 44,
         URL: '/reporting'
-    }
+    },
+
+
+    USER_MANAGEMENT: {
+        ADD: 53,
+        EDIT: 54,
+        DELETE: 55,
+        LIST: 56,
+        URL: '/user-management'
+    },
 };
 
 export default PERMISSION;
